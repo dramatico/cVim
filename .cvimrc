@@ -29,7 +29,7 @@ let blacklists = ["https://mail.google.com/*"]
 let mapleader = ","
 
 " Mappings
-map <Leader><Leader>t  :open https://www.twitter.com<CR>
+map <Leader><Leader>t :open https://www.twitter.com<CR>
 map <Leader><Leader>f :open https://feedly.com/#category/news<CR>
 map <Leader><Leader>b :open http://b.hatena.ne.jp/headline<CR>
 map <Leader><Leader>p :open https://getpocket.com/a/queue/<CR>
@@ -57,7 +57,7 @@ map <C-u> rootFrame
 map <C-x>b :buffer<Space>
 map s :tabnew<Space>
 map q x
-map <A-x> :
+map <M-x> :
 map u X
 map h I
 map ZZ quitChrome
