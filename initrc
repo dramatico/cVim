@@ -105,11 +105,7 @@ site 'https://www.tumblr.com/*' {
    unmap h
    unmap t
    unmap l
-   unmap g
-   unmap d
    unmap p
-   unmap q
-   unmap o
    unmap i
 }
 site 'https://twitter.com/*' {
