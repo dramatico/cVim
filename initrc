@@ -58,8 +58,7 @@ unmap /
 map <C-u> rootFrame
 map <C-x>b :buffer<Space>
 map s :tabnew<Space>
-map i goToInput
-map a goToInput
+map <A-i> goToInput
 map R reloadTabUncached
 map <C-z> toggleCVim
 map q x
