@@ -61,7 +61,7 @@ map a goToInput
 map R reloadTabUncached
 map <C-z> toggleCVim
 map q x
-map <M-x> :
+map <A-x> :
 map u X
 map h I
 map ZZ quitChrome
