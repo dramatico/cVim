@@ -52,7 +52,6 @@ unmap /
 map <C-u> rootFrame
 map <C-x>b :buffer<Space>
 map s :tabnew<Space>
-map wq <C-A-S-w>
 map q x
 map <A-x> :
 map u X
