@@ -53,7 +53,6 @@ unmap k
 unmap t
 unmap /
 
-map <Leader>q <C-A-S-q>
 map <C-u> rootFrame
 map <C-x>b :buffer<Space>
 map s :tabnew<Space>
