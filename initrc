@@ -6,6 +6,7 @@ set typelinkhints
 set scalehints
 set linkanimations
 set noregrep
+set autoupdategist
 let searchlimit = 30
 let scrollstep = 70
 let barposition = "bottom"
