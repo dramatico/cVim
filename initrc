@@ -28,7 +28,9 @@ let searchalias g = "google"
 let locale = "jp"
 let blacklists = ["https://mail.google.com/*"]
 let mapleader = ","
-
+let nextmatchpattern="\s*次頁|次ページ|次のページ\s*,^\bnext\b,\\bnext\\b,^>$,^(>>|)$,^(>|),(>|)$,\\bmore\\b"
+let previousmatchpattern="\s*前頁|前ページ|前のページ\s*,^\bprev|previous\b,\\bprev|previous\\b,^<$,^(<<|)$,^(<|),(<|)$"
+ 
 " Mappings
 map <Leader><Leader>t :open https://www.twitter.com<CR>
 map <Leader><Leader>f :open https://feedly.com/#category/news<CR>
@@ -66,9 +68,7 @@ map <A-x> :
 map u X
 map h I
 map ZZ quitChrome
-map ZR :chrome://restart<CR>
-map tt <C-S-l>
-map tl <C-S-l><CR>
+map ZR :opera://restart<CR>
 map <C-k> q
 map <C-A-h> closeTabsToLeft
 map <C-A-l> closeTabsToRight
