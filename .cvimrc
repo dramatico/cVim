@@ -56,11 +56,16 @@ unmap /
 map <C-u> rootFrame
 map <C-x>b :buffer<Space>
 map s :tabnew<Space>
+map i goToInput
+map a goToInput
+map R reloadTabUncached
+map <C-z> toggleCVim
 map q x
 map <M-x> :
 map u X
 map h I
 map ZZ quitChrome
+map ZR :chrome://restart<CR>
 map tt <C-S-l>
 map tl <C-S-l><CR>
 map <C-k> q
