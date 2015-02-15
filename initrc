@@ -41,6 +41,7 @@ map <Leader><Leader>h :open https://hootsuite.com/dashboard<CR>
 map <Leader><Leader>k :open https://keep.google.com<CR>
 map <Leader><Leader>r :open http://reblog.machine.mamemomonga.com/dashboard#pelerinage/dashboard/photo/<CR>
 map <Leader><Leader>y :open https://www.youtube.com/<CR>
+map <Leader><Leader>g :open https://github.com/dramatico/halcvim/edit/master/initrc<CR>
 
 imap <C-a> beginningOfLine
 imap <C-e> endOfLine
