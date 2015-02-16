@@ -34,9 +34,10 @@ let previousmatchpattern="\s*前頁|前ページ|前のページ\s*,^\bprev|prev
 " Mappings
 map <Leader><Leader>t :open! https://www.twitter.com<CR>
 map <Leader><Leader>f :open https://feedly.com/#category/news<CR>
-map <Leader><Leader>b :open! http://b.hatena.ne.jp/headline<CR>
+map <Leader><Leader>b :open http://b.hatena.ne.jp/headline<CR>
 map <Leader><Leader>p :open! https://getpocket.com/a/queue/<CR>
 map <Leader><Leader>e :open! http://pelerinage.tumblr.com/<CR>
+map <Leader><Leader>a :open!* http://www.trntbl.me/pelerinage<CR>
 map <Leader><Leader>l :open! http://www.tumblr.com/dashboard/<CR>
 map <Leader><Leader>i :open! https://www.instapaper.com/u<CR>
 map <Leader><Leader>h :open! https://hootsuite.com/dashboard<CR>
