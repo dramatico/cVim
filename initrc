@@ -57,6 +57,7 @@ unmap k
 unmap t
 unmap /
 
+map gp :togglepin<CR>
 map <C-u> rootFrame
 map <C-x>b :buffer<Space>
 map s :tabnew<Space>
