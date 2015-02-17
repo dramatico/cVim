@@ -113,7 +113,6 @@ site 'https://www.tumblr.com/*' {
 site 'https://twitter.com/*' {
    unmap j
    unmap k
-   unmap t
    unmap u
    unmap g
    unmap ?
