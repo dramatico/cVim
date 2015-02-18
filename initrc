@@ -70,6 +70,9 @@ unmap v
 unmap V
 unmap y
 unmap c
+unmap J
+unmap K
+unmap E
 
 map ^ gu
 map gp :togglepin<CR>
