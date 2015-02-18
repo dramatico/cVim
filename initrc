@@ -57,6 +57,18 @@ imap <C-b> backwardChar
 unmap k
 unmap t
 unmap /
+unmap w
+unmap e
+unmap W
+unmap A
+unmap Q
+unmap T
+unmap O
+unmap S
+unmap D
+unmap v
+unmap V
+unmap y
 
 map gp :togglepin<CR>
 map <C-u> rootFrame
