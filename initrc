@@ -70,6 +70,7 @@ unmap v
 unmap V
 unmap y
 
+map ^ gu
 map gp :togglepin<CR>
 map <C-u> rootFrame
 map <C-x>b :buffer<Space>
