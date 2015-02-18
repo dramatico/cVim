@@ -82,7 +82,7 @@ map <C-x>b :buffer<Space>
 map s :tabnew<Space>
 map <A-i> goToInput
 map R reloadTabUncached
-map q x
+map q :quit<CR>
 map <A-x> :
 map u X
 map h I
