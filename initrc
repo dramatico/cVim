@@ -132,5 +132,6 @@ site 'https://twitter.com/*' {
    unmap k
    unmap u
    unmap g
+   unmap t
    unmap ?
 }
