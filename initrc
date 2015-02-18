@@ -64,7 +64,7 @@ unmap Q
 unmap T
 unmap O
 unmap S
-unmap D
+unmap L
 unmap v
 unmap V
 unmap y
@@ -74,7 +74,7 @@ unmap K
 unmap E
 
 map z H
-mao x L
+mao x D
 map ^ gu
 map gp :togglepin<CR>
 map <C-u> rootFrame
