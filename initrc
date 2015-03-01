@@ -43,9 +43,11 @@ map <Leader><Leader>i :open! https://www.instapaper.com/u<CR>
 map <Leader><Leader>h :open! https://hootsuite.com/dashboard<CR>
 map <Leader><Leader>k :open! https://keep.google.com<CR>
 map <Leader><Leader>r :open! http://reblog.machine.mamemomonga.com/dashboard#pelerinage/dashboard/photo/<CR>
-map <Leader><Leader>y :open! https://www.youtube.com/<CR>
+map <Leader><Leader>y :open! https://www.youtube.com/playlist?list=FLz2pVQTZQmA-0yJoe6wH9uQ<CR>
 map <Leader><Leader>g :open! https://github.com/dramatico/halcvim/edit/master/initrc<CR>
 map <Leader><Leader>d :open! https://19c69d84ebd054fee6bc8a1b55ab8dbe65a60e5b.googledrive.com/host/0Bx0yUfG0maS1MXktWmJpdHoxZ28/<CR>
+map <Leader><Leader>v :open! http://nightlies.videolan.org/build/win64/<CR>
+map <Leader><Leader>s :open! http://u6.getuploader.com/script/
 
 imap <C-a> beginningOfLine
 imap <C-e> endOfLine
