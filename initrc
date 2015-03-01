@@ -9,7 +9,7 @@ set noregrep
 set autoupdategist
 let searchlimit = 30
 let scrollstep = 70
-let barposition = "bottom"
+"let barposition = "bottom"
 let hintcharacters = "sadfghjqwertyuzxcv"
 let searchengine ydict = "http://dic.search.yahoo.co.jp/dsearch?dic_id=jj&amp;stype=prefix&amp;b=1&amp;p=%s"
 let searchalias d = "ydict"
