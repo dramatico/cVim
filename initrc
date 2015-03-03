@@ -104,6 +104,7 @@ site 'http://reblog.machine.mamemomonga.com/*' {
    unmap k
    unmap l
    unmap t
+   unmap m
 }
 site 'https://feedly.com/*' {
    unmap j
