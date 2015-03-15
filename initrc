@@ -39,10 +39,11 @@ map <Leader><Leader>p :open! https://getpocket.com/a/queue/<CR>
 map <Leader><Leader>e :open! http://pelerinage.tumblr.com/<CR>
 map <Leader><Leader>a :open!* http://www.trntbl.me/pelerinage<CR>
 map <Leader><Leader>l :open! http://www.tumblr.com/dashboard/<CR>
+map <Leader><Leader>m :open! http://www.tumblr.com/mega-editor<CR>
 map <Leader><Leader>i :open! https://www.instapaper.com/u<CR>
 map <Leader><Leader>h :open! https://hootsuite.com/dashboard<CR>
 map <Leader><Leader>k :open! https://keep.google.com<CR>
-map <Leader><Leader>r :open! http://reblog.machine.mamemomonga.com/dashboard#pelerinage/dashboard/photo/<CR>
+map <Leader><Leader>r :open! http://dev.reblog.machine.mamemomonga.com/dashboard/#/pelerinage/dashboard/photo/<CR>
 map <Leader><Leader>y :open! https://www.youtube.com/playlist?list=FLz2pVQTZQmA-0yJoe6wH9uQ<CR>
 map <Leader><Leader>g :open! https://github.com/dramatico/halcvim/edit/master/initrc<CR>
 map <Leader><Leader>d :open! https://19c69d84ebd054fee6bc8a1b55ab8dbe65a60e5b.googledrive.com/host/0Bx0yUfG0maS1MXktWmJpdHoxZ28/<CR>
@@ -70,6 +71,7 @@ unmap v
 unmap V
 unmap y
 unmap c
+unmap cr
 unmap J
 unmap K
 unmap E
@@ -100,6 +102,13 @@ map <Leader>p :script javascript:(function(){var e=function(t,n,r,i,s){var o=[18
 map <Leader>a :script javascript:(function(){location.href.match(/\/(?:dp|product|asin)\/([^/?%]+)/i);location.href = 'http://www.amazon.co.jp/dp/' + RegExp.lastParen + '/';})();<CR>
 " Site-specific settings
 site 'http://reblog.machine.mamemomonga.com/*' {
+   unmap j
+   unmap k
+   unmap l
+   unmap t
+   unmap m
+}
+site 'http://dev.reblog.machine.mamemomonga.com/*' {
    unmap j
    unmap k
    unmap l
