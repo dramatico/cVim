@@ -49,6 +49,7 @@ map <Leader><Leader>g :open! https://github.com/dramatico/halcvim/edit/master/in
 map <Leader><Leader>d :open! https://19c69d84ebd054fee6bc8a1b55ab8dbe65a60e5b.googledrive.com/host/0Bx0yUfG0maS1MXktWmJpdHoxZ28/<CR>
 map <Leader><Leader>v :open! http://nightlies.videolan.org/build/win64/<CR>
 map <Leader><Leader>s :open! http://u6.getuploader.com/script/<CR>
+map <Leader><Leader>2 :open! https://github.com/dramatico/halcvim/blob/master/initrc<CR>
 imap <C-a> beginningOfLine
 imap <C-e> endOfLine
 imap <C-u> deleteToBeginning
