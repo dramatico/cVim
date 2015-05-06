@@ -34,10 +34,10 @@ let previousmatchpattern="\s*前頁|前へ|前ページ|←|PREV|Previous|前の
  
 " Mappings
 map <Leader><Leader>t :open! https://www.twitter.com<CR>
-map <Leader><Leader>f :open https://feedly.com/#category/news<CR>
+map <Leader><Leader>f :open http://feedly.com/#category/news<CR>
 map <Leader><Leader>b :open http://b.hatena.ne.jp/headline<CR>
 map <Leader><Leader>p :open! https://getpocket.com/a/queue/<CR>
-map <Leader><Leader>e :open! http://pelerinage.tumblr.com/<CR>
+map <Leader><Leader>1 :open! http://pelerinage.tumblr.com/<CR>
 map <Leader><Leader>a :open!* http://www.trntbl.me/pelerinage<CR>
 map <Leader><Leader>l :open! http://www.tumblr.com/dashboard/<CR>
 map <Leader><Leader>m :open! http://www.tumblr.com/mega-editor<CR>
@@ -51,8 +51,9 @@ map <Leader><Leader>d :open! https://19c69d84ebd054fee6bc8a1b55ab8dbe65a60e5b.go
 map <Leader><Leader>v :open! http://nightlies.videolan.org/build/win64/<CR>
 map <Leader><Leader>s :open! http://u6.getuploader.com/script/<CR>
 map <Leader><Leader>2 :open! http://xiwayy2kn32bo3ko.onion.city/test/read.cgi/tor/1424667677/<CR>
-imap <C-a> beginningOfLine
-imap <C-e> endOfLine
+map <Leader><Leader>e :open! http://emacsbinw64.sourceforge.net/<CR>
+map <C-a> beginningOfLine
+map <C-e> endOfLine
 imap <C-u> deleteToBeginning
 imap <C-k> deleteToEnd
 imap <C-w> deleteWord
@@ -77,11 +78,13 @@ unmap cr
 unmap J
 unmap K
 unmap E
+unmap <C-v>
 map k scrollUp
 map / openSearchBar
 map <C-f> scrollFullPageDown
 map <C-b> scrollFullPageUp
 map d scrollFullPageDown
+map <C-d> scrollFullPageDown
 map e scrollFullPageUp
 map <F1> previousTab
 map <F2> nextTab
@@ -127,7 +130,7 @@ site 'http://dev.reblog.machine.mamemomonga.com/*' {
    unmap t
    unmap m
 }
-site 'https://feedly.com/*' {
+site 'http://feedly.com/*' {
    unmap j
    unmap k
    unmap n
