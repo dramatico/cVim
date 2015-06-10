@@ -52,6 +52,8 @@ map <Leader><Leader>v :open! http://nightlies.videolan.org/build/win64/<CR>
 map <Leader><Leader>s :open! http://u6.getuploader.com/script/<CR>
 map <Leader><Leader>2 :open! http://xiwayy2kn32bo3ko.onion.city/test/read.cgi/tor/1424667677/<CR>
 map <Leader><Leader>e :open! http://emacsbinw64.sourceforge.net/<CR>
+map <Leader><Leader>o :open! http://yue.micblo.com/<CR>
+map <Leader><Leader>x :open! http://webwarper.net/<CR>
 map <C-a> beginningOfLine
 map <C-e> endOfLine
 imap <C-u> deleteToBeginning
