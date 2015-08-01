@@ -33,9 +33,8 @@ let nextmatchpattern="\s*次頁|次へ|次ページ|→|NEXT|次のページ\s*,
 let previousmatchpattern="\s*前頁|前へ|前ページ|←|PREV|Previous|前のページ\s*,^\bprev|previous\b,\\bprev|previous\\b,^<$,^(<<|)$,^(<|),(<|)$"
  
 " Mappings
-map <Leader><Leader>t :open! https://www.twitter.com<CR>
 map <Leader><Leader>f :open http://feedly.com/#category/news<CR>
-map <Leader><Leader>b :open http://b.hatena.ne.jp/headline<CR>
+map <Leader><Leader>b :open http://b.hatena.ne.jp/headline?type=entrylist<CR>
 map <Leader><Leader>p :open! https://getpocket.com/a/queue/<CR>
 map <Leader><Leader>1 :open! http://pelerinage.tumblr.com/<CR>
 map <Leader><Leader>a :open!* http://www.trntbl.me/pelerinage<CR>
@@ -48,12 +47,14 @@ map <Leader><Leader>r :open! http://dev.reblog.machine.mamemomonga.com/dashboard
 map <Leader><Leader>y :open! https://www.youtube.com/playlist?list=FLz2pVQTZQmA-0yJoe6wH9uQ<CR>
 map <Leader><Leader>g :open! https://github.com/dramatico/halcvim/edit/master/initrc<CR>
 map <Leader><Leader>d :open! https://19c69d84ebd054fee6bc8a1b55ab8dbe65a60e5b.googledrive.com/host/0Bx0yUfG0maS1MXktWmJpdHoxZ28/<CR>
+map <Leader><Leader>t :open! http://hawksey.info/tagsexplorer/arc.html?key=1ZhvzD-DyeN-LwqPa-XUF866JEBNkiMH_IPAwXLR2RzE&gid=400689247<CR>
+map <Leader><Leader>z :open! http://hawksey.info/tagsexplorer/arc.html?key=1_WWd6wBmXGgeNTIf_cfydFKZZZQQMFOgYWZjcNVrngM&gid=400689247<CR>
 map <Leader><Leader>v :open! http://nightlies.videolan.org/build/win64/<CR>
 map <Leader><Leader>s :open! http://u6.getuploader.com/script/<CR>
 map <Leader><Leader>2 :open! http://xiwayy2kn32bo3ko.onion.city/test/read.cgi/tor/1424667677/<CR>
 map <Leader><Leader>e :open! http://emacsbinw64.sourceforge.net/<CR>
-map <Leader><Leader>o :open! http://yue.micblo.com/<CR>
-map <Leader><Leader>x :open! http://webwarper.net/<CR>
+map <Leader><Leader>o :open! http://yue.micblo.com/<CR> "広東語
+map <Leader><Leader>x :open! http://webwarper.net/<CR> "CGI proxy
 map <C-a> beginningOfLine
 map <C-e> endOfLine
 imap <C-u> deleteToBeginning
@@ -164,4 +165,18 @@ site 'https://twitter.com/*' {
    unmap g
    unmap t
    unmap ?
+}
+site 'https://tweetdeck.twitter.com/*' {
+   unmap r
+   unmap t
+   unmap f
+   unmap n
+   unmap d
+   unmap p
+   unmap a
+   unmap x
+   unmap ?
+   unmap s
+   unmap 1
+   unmap 2
 }
