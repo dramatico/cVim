@@ -55,6 +55,8 @@ map <Leader><Leader>2 :open! http://xiwayy2kn32bo3ko.onion.city/test/read.cgi/to
 map <Leader><Leader>e :open! http://emacsbinw64.sourceforge.net/<CR>
 map <Leader><Leader>o :open! http://yue.micblo.com/<CR>
 map <Leader><Leader>x :open! http://webwarper.net/<CR>
+map <Leader>g :open! http://www.lexilogos.com/english/german_translation.htm<CR>
+map <Leader>f :open! http://www.lexilogos.com/english/french_translation.htm<CR>
 map <C-a> beginningOfLine
 map <C-e> endOfLine
 imap <C-u> deleteToBeginning
@@ -82,6 +84,7 @@ unmap J
 unmap K
 unmap E
 unmap <C-v>
+unmap <C-j>
 map k scrollUp
 map / openSearchBar
 map <C-f> scrollFullPageDown
