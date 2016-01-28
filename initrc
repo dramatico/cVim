@@ -64,27 +64,6 @@ imap <C-k> deleteToEnd
 imap <C-w> deleteWord
 imap <C-f> forwardChar
 imap <C-b> backwardChar
-unmap k
-unmap t
-unmap /
-unmap w
-unmap W
-unmap A
-unmap Q
-unmap T
-unmap O
-unmap S
-unmap L
-unmap v
-unmap V
-unmap y
-unmap c
-unmap cr
-unmap J
-unmap K
-unmap E
-unmap <C-v>
-unmap <C-j>
 map k scrollUp
 map / openSearchBar
 map <C-f> scrollFullPageDown
@@ -183,3 +162,26 @@ site 'https://tweetdeck.twitter.com/*' {
    unmap 1
    unmap 2
 }
+unmap k
+unmap t
+unmap w
+unmap W
+unmap A
+unmap Q
+unmap T
+unmap O
+unmap S
+unmap L
+unmap v
+unmap V
+unmap y
+unmap c
+unmap cr
+unmap J
+unmap K
+unmap E
+unmap <C-v>
+unmap <C-j>
+unmap <C-s>
+unmap <C-r>
+unmap <C-g>
