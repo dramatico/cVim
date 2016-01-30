@@ -27,12 +27,35 @@ let searchalias r = "ytwitter"
 let searchalias b = "bing"
 let searchalias g = "google"
 let locale = "jp"
-let blacklists = ["https://mail.google.com/*"]
+let blacklists = ["https://mail.google.com/*","http://feedly.com/*"]
 let mapleader = ","
 let nextmatchpattern="\s*次頁|次へ|次ページ|→|NEXT|次のページ\s*,^\bnext\b,\\bnext\\b,^>$,^(>>|)$,^(>|),(>|)$,\\bmore\\b"
 let previousmatchpattern="\s*前頁|前へ|前ページ|←|PREV|Previous|前のページ\s*,^\bprev|previous\b,\\bprev|previous\\b,^<$,^(<<|)$,^(<|),(<|)$"
  
 " Mappings
+unmap k
+unmap t
+unmap g
+unmap gg
+unmap w
+unmap W
+unmap A
+unmap Q
+unmap T
+unmap O
+unmap S
+unmap L
+unmap v
+unmap V
+unmap y
+unmap c
+unmap cr
+unmap J
+unmap K
+unmap E
+unmap <C-v>
+unmap <C-j>
+unmap /
 map <Leader><Leader>f :open http://feedly.com/#category/news<CR>
 map <Leader><Leader>b :open http://b.hatena.ne.jp/headline?type=entrylist<CR>
 map <Leader><Leader>p :open! https://getpocket.com/a/queue/<CR>
@@ -40,9 +63,10 @@ map <Leader><Leader>1 :open! http://pelerinage.tumblr.com/<CR>
 map <Leader><Leader>a :open!* http://www.trntbl.me/pelerinage<CR>
 map <Leader><Leader>l :open! http://www.tumblr.com/dashboard/<CR>
 map <Leader><Leader>m :open! http://www.tumblr.com/mega-editor<CR>
-map <Leader><Leader>i :open! https://www.instapaper.com/u<CR>
+map <Leader><Leader>i :open! http://www.fotor.com/app.html#!module/basic/tool/BasicEdits<CR>
 map <Leader><Leader>h :open! https://hootsuite.com/dashboard<CR>
-map <Leader><Leader>k :open! https://keep.google.com<CR>
+map <Leader><Leader>k :open http://homepage2.nifty.com/ryurinsya/hanzisuoyin/bushou_00.html<CR>
+map <Leader><Leader>c :open http://www.jcinfo.net/jp/kanji/<CR>
 map <Leader><Leader>r :open! http://dev.reblog.machine.mamemomonga.com/dashboard/#/pelerinage/dashboard/photo/<CR>
 map <Leader><Leader>y :open! https://www.youtube.com/playlist?list=FLz2pVQTZQmA-0yJoe6wH9uQ<CR>
 map <Leader><Leader>g :open! https://github.com/dramatico/halcvim/edit/master/initrc<CR>
@@ -52,9 +76,9 @@ map <Leader><Leader>z :open! http://hawksey.info/tagsexplorer/arc.html?key=1_WWd
 map <Leader><Leader>v :open! http://nightlies.videolan.org/build/win64/<CR>
 map <Leader><Leader>s :open! http://u6.getuploader.com/script/<CR>
 map <Leader><Leader>2 :open! http://xiwayy2kn32bo3ko.onion.city/test/read.cgi/tor/1424667677/<CR>
-map <Leader><Leader>e :open! http://emacsbinw64.sourceforge.net/<CR>
+map <Leader><Leader>e :open https://syncer.jp/twitter-emoji<CR>
 map <Leader><Leader>o :open! http://yue.micblo.com/<CR>
-map <Leader><Leader>x :open! http://webwarper.net/<CR>
+map <Leader><Leader>x :open! http://topicfish.com/<CR>
 map <Leader>g :open! http://www.lexilogos.com/english/german_translation.htm<CR>
 map <Leader>f :open! http://www.lexilogos.com/english/french_translation.htm<CR>
 map <C-a> beginningOfLine
@@ -65,7 +89,6 @@ imap <C-w> deleteWord
 imap <C-f> forwardChar
 imap <C-b> backwardChar
 map k scrollUp
-map / openSearchBar
 map <C-f> scrollFullPageDown
 map <C-b> scrollFullPageUp
 map d scrollFullPageDown
@@ -125,8 +148,9 @@ site 'http://feedly.com/*' {
    unmap r
    unmap b
    unmap v
-   unmap g
    unmap a
+   unmap g
+   unmap gg
    unmap t
    unmap w
    unmap ?
@@ -148,40 +172,3 @@ site 'https://twitter.com/*' {
    unmap t
    unmap ?
 }
-site 'https://tweetdeck.twitter.com/*' {
-   unmap r
-   unmap t
-   unmap f
-   unmap n
-   unmap d
-   unmap p
-   unmap a
-   unmap x
-   unmap ?
-   unmap s
-   unmap 1
-   unmap 2
-}
-unmap k
-unmap t
-unmap w
-unmap W
-unmap A
-unmap Q
-unmap T
-unmap O
-unmap S
-unmap L
-unmap v
-unmap V
-unmap y
-unmap c
-unmap cr
-unmap J
-unmap K
-unmap E
-unmap <C-v>
-unmap <C-j>
-unmap <C-s>
-unmap <C-r>
-unmap <C-g>
